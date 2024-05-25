@@ -55,3 +55,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_WPM_ENABLE
 #define OLED_TIMEOUT 120000
 #define OLED_BRIGHTNESS 120
+
+#define ENCODERS_PAD_A { F4 } //Master half pin Out A
+#define ENCODERS_PAD_B { F5 } //Master half pin Out B
+#define ENCODER_RESOLUTIONS { 4 } //Master's pulses the encoder registers between each detent
+#define ENCODERS_PAD_A_RIGHT { F4 } //Slave half pin Out A
+#define ENCODERS_PAD_B_RIGHT { D4 } //Slave half pin Out B
+#define ENCODER_RESOLUTIONS_RIGHT { 4 } //Slave's pulses the encoder registers between each detent
